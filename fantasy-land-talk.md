@@ -3,6 +3,14 @@ title: Fantasy Land
 author: Will Ockelmann-Wagner
 ...
 
+# To celebrate the first Haskell meetup in a while
+
+I'd here to talk about...
+
+# JavaScript
+
+# (Sorry)
+
 # Fantasy Land
 
 - A set of types for Haskell-like functional data structures in JS
@@ -28,8 +36,6 @@ to satisfy some peoples' aesthetic preferences that aren't even applicable
 to JavaScript."
 
 https://github.com/promises-aplus/promises-spec/issues/94#issuecomment-16176966
-
-# Which, honestly, is fair
 
 # Things turned out okay 
 
@@ -57,6 +63,19 @@ upperCase(Maybe.Noting()); // Maybe.Nothing();
 # Other functions
 
 - Ramda - supports `ap`, `chain`, `lift`
-- Sanctuary - more functions and data structures 
 - Folk Tale - popular, lots of data types
+- Sanctuary - more functions and data structures 
+- Fluture - promises as monads
 
+# A typed-language fantasy land
+
+- In Fantasy Land, the type signatures look familiar
+
+The type for Fluture's Future.chain method:
+```haskell
+chain :: Chain m => (a -> m b) -> m a -> m b
+```
+
+# If you must JavaScript
+
+- Consider living in a Fantasy Land
