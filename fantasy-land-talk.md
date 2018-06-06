@@ -60,7 +60,7 @@ upperCase(Maybe.Noting()); // Maybe.Nothing();
 
 ```
 
-# Other functions
+# Libraries in Fantasy Land
 
 - Ramda - supports `ap`, `chain`, `lift`
 - Folk Tale - popular, lots of data types
